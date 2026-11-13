@@ -35,6 +35,7 @@ read response3
 
 echo "Do you want to cleanup cache of your package manager?(y/n)"
 read response4
+echo "This only works with apt, dnf & pacman"
 
     if [ "$response4" = y ]; then
 
@@ -48,3 +49,6 @@ read response4
     else
         echo "Skipping this part"
     fi
+
+
+# 
